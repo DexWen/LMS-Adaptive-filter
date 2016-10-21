@@ -1,0 +1,50 @@
+# BEGIN Project Options
+SET flowvendor = Foundation_iSE
+SET vhdlsim = True
+SET verilogsim = True
+SET workingdirectory = D:\work\ISE\c11
+SET speedgrade = -12
+SET simulationfiles = Behavioral
+SET asysymbol = True
+SET addpads = False
+SET device = xc4vsx35
+SET implementationfiletype = Edif
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = ff668
+SET createndf = False
+SET designentry = VHDL
+SET devicefamily = virtex4
+SET formalverification = False
+SET removerpms = False
+# END Project Options
+# BEGIN Select
+SELECT Multiplier family Xilinx,_Inc. 8.0
+# END Select
+# BEGIN Parameters
+CSET pipelined=Maximum
+CSET output_width=32
+CSET asynchronous_clear=false
+CSET synchronous_clear=false
+CSET memory_type=Distributed_Memory
+CSET clock_enable=false
+CSET port_a_data=Signed
+CSET load_done_output=false
+CSET ce_overrides=SCLR_Overrides_CE
+CSET nd=false
+CSET register_input=false
+CSET port_b_width=16
+CSET port_b_data=Signed
+CSET port_b_constant_value=10
+CSET port_a_width=16
+CSET component_name=lmsmult
+CSET multiplier_construction=Use_LUTs
+CSET output_options=Registered
+CSET port_b_constant=false
+CSET reload_options=Stop_During_Reload
+CSET rfd=false
+CSET reloadable=false
+CSET rdy=false
+# END Parameters
+GENERATE
+

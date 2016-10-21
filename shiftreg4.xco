@@ -1,0 +1,50 @@
+# BEGIN Project Options
+SET flowvendor = Foundation_iSE
+SET vhdlsim = True
+SET verilogsim = True
+SET workingdirectory = C:\work\ISE\c11
+SET speedgrade = -12
+SET simulationfiles = Behavioral
+SET asysymbol = True
+SET addpads = False
+SET device = xc4vsx35
+SET implementationfiletype = Edif
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = ff668
+SET createndf = False
+SET designentry = VHDL
+SET devicefamily = virtex4
+SET formalverification = False
+SET removerpms = False
+# END Project Options
+# BEGIN Select
+SELECT RAM-based_Shift_Register family Xilinx,_Inc. 8.0
+# END Select
+# BEGIN Parameters
+CSET aclr=false
+CSET ce=false
+CSET cepriority=Sync_Overrides_CE
+CSET asyncinitval=0000000000000000
+CSET depth=4
+CSET meminitfile=no_coe_file_loaded
+CSET shiftregtype=Fixed_Length
+CSET component_name=shiftreg4
+CSET syncinitval=0000000000000000
+CSET defaultdata=0000000000000000
+CSET syncctrlpriority=Reset_Overrides_Set
+CSET defaultdataradix=16
+CSET sset=false
+CSET optgoal=Area
+CSET asyncinitradix=2
+CSET sclr=false
+CSET ainit=false
+CSET width=8
+CSET aset=false
+CSET syncinitradix=2
+CSET readmiffile=false
+CSET sinit=false
+CSET reglastbit=false
+# END Parameters
+GENERATE
+
